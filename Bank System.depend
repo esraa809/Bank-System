@@ -1,0 +1,127 @@
+# depslib dependency file v1.0
+1782699600 source:d:\code\bank system\main.cpp
+	"Screens.h"
+
+1782686040 source:d:\code\bank system\src\client.cpp
+	"Client.h"
+
+1782691899 d:\code\bank system\include\client.h
+	<iterator>
+	<Person.h>
+	<vector>
+	<iostream>
+	<Validation.h>
+
+1782592705 source:d:\code\bank system\src\person.cpp
+	"Person.h"
+
+1782671559 d:\code\bank system\include\person.h
+	<iostream>
+	<string>
+	"Validation.h"
+
+1782594927 source:d:\code\bank system\src\validation.cpp
+	"Validation.h"
+
+1782695455 d:\code\bank system\include\validation.h
+	<iostream>
+	<string>
+
+1782686040 source:d:\code\bank system\src\employee.cpp
+	"Employee.h"
+
+1782691899 d:\code\bank system\include\employee.h
+	"Person.h"
+	"Validation.h"
+	<vector>
+	"Client.h"
+
+1782686040 source:d:\code\bank system\src\admin.cpp
+	"Admin.h"
+
+1782691572 d:\code\bank system\include\admin.h
+	"Employee.h"
+
+1782605013 source:d:\code\bank system\src\entrydata.cpp
+	"EntryData.h"
+
+1782699799 d:\code\bank system\include\entrydata.h
+	"Validation.h"
+
+1782671191 source:d:\code\bank system\src\parser.cpp
+	"Parser.h"
+
+1782682980 d:\code\bank system\include\parser.h
+	<fstream>
+	<sstream>
+	<vector>
+	<string>
+	"Client.h"
+	"Employee.h"
+	"Admin.h"
+
+1782677588 source:d:\code\bank system\src\fileshelper.cpp
+	"FilesHelper.h"
+
+1782691734 d:\code\bank system\include\fileshelper.h
+	<fstream>
+	<vector>
+	<string>
+	"Client.h"
+	"Parser.h"
+
+1782678325 source:d:\code\bank system\src\datasourceinterface.cpp
+	"DataSourceInterface.h"
+
+1782678442 d:\code\bank system\include\datasourceinterface.h
+	"Client.h"
+	"Employee.h"
+	"Admin.h"
+
+1782679855 source:d:\code\bank system\src\filemanager.cpp
+	"FileManager.h"
+
+1782747687 d:\code\bank system\include\filemanager.h
+	"DataSourceInterface.h"
+	"FilesHelper.h"
+
+1782762452 d:\code\bank system\include\screens.h
+	<iostream>
+	<stdlib.h>
+	"ClientManger.h"
+	"EmployeeManager.h"
+	"AdminManager.h"
+	"FileManager.h"
+
+1782758847 d:\code\bank system\include\clientmanger.h
+	"Client.h"
+	"EntryData.h"
+	"FileManager.h"
+	<iostream>
+
+1782695455 source:d:\code\bank system\src\clientmanger.cpp
+	"ClientManger.h"
+
+1782695455 source:d:\code\bank system\src\screens.cpp
+	"Screens.h"
+
+1782748852 d:\code\bank system\include\employeemanager.h
+	"Employee.h"
+	"Client.h"
+	"EntryData.h"
+	"FileManager.h"
+	<iostream>
+
+1782751659 d:\code\bank system\include\adminmanager.h
+	"Admin.h"
+	"EmployeeManager.h"
+	"EntryData.h"
+	"FileManager.h"
+	<iostream>
+
+1782699600 source:d:\code\bank system\src\adminmanager.cpp
+	"AdminManager.h"
+
+1782699600 source:d:\code\bank system\src\employeemanager.cpp
+	"EmployeeManager.h"
+
